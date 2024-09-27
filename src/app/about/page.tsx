@@ -87,7 +87,7 @@ export default function AboutPage() {
                 }}
               >
                 <Typography variant="h4" component="h1" gutterBottom>
-                  About me:
+                  About me
                 </Typography>
                 <Typography variant="body1" paragraph>
                   Hello! I'm Ryan Vargas, a Christ follower and dedicated tech
