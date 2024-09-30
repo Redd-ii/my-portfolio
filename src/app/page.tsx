@@ -46,7 +46,6 @@ const projects = [
 export default function HomePage() {
   const theme = useTheme();
 
-
   return (
     <Container maxWidth="lg" sx={{ pt: 12 }}>
       {/* About Me Section */}
@@ -191,7 +190,7 @@ export default function HomePage() {
         >
           <Box sx={{flexGrow: 1, py: 8, mb: 20}} id="projects">
             <Typography variant="h2" component="h1" gutterBottom align="center">
-              Projects and Achievements
+              Projects and Personal Achievements
             </Typography>
             <div className="grid gap-6 md:grid-cols-3">
               {projects.map((project, idx) => (
