@@ -96,6 +96,26 @@ export default function HomePage() {
               >
                 Read More &rarr;
               </Button>
+              <Button
+                component="button"
+                rel="noopener noreferrer"
+                target="_blank"
+                href="/files/Resume.pdf"
+                variant="contained"
+                color="primary"
+                sx={{
+                  ml: 4,
+                  textTransform: "none",
+                  color: theme.palette.mode === "dark" ? "#000000" : undefined,
+                  "&:hover": {
+                    backgroundColor: theme.palette.primary.dark,
+                    color:
+                      theme.palette.mode === "dark" ? "#000000" : undefined,
+                  },
+                }}
+              >
+                Resume &rarr;
+              </Button>
             </motion.div>
           </Grid>
           <Grid size={5}>
